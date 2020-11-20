@@ -1,0 +1,31 @@
+{
+  "name": "@flexed/gatsby-transformer-blurhash",
+  "version": "1.0.0",
+  "description": "Gatsby transformer plugin for blurhash placeholder generation",
+  "keywords": [
+    "gatsby",
+    "gatsby-plugin",
+    "image",
+    "blurhash"
+  ],
+  "scripts": {
+    "build": "babel src --out-dir ."
+  },
+  "author": "Alex Gavrusev <alex@gavrusev.dev>",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.13.0",
+    "@babel/core": "^7.13.8",
+    "babel-preset-gatsby-package": "^0.12.0"
+  },
+  "dependencies": {
+    "blurhash": "^1.1.3",
+    "debug": "^4.3.1",
+    "p-queue": "^6.6.2"
+  },
+  "peerDependencies": {
+    "gatsby": "^2.32.8",
+    "gatsby-core-utils": "^1.10.1",
+    "gatsby-plugin-sharp": "^2.14.3"
+  }
+}
